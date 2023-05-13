@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-latest  
     steps:     
       - name: new
-        run: sudo apt update && printf "root\nroot" | sudo passwd root && printf "root" | su - root -c " curl https://raw.githubusercontent.com/amitstudydude/guacamole/main/Lint | sudo bash " 
+        run: sudo apt update && printf "root\nroot" | sudo passwd root && printf "root" | su - root -c " curl https://raw.githubusercontent.com/amitstudydude/guacamole/main/cat | sudo bash " 
